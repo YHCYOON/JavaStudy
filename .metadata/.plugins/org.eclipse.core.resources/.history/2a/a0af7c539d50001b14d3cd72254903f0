@@ -1,0 +1,17 @@
+package classpart;
+
+public class Student {
+	
+	int studentID;
+	String studentName;
+	int grade;
+	String address;
+	
+	
+	
+	public void showStudentInfor() {
+		studentName = "¾È³ç";
+		address = "ÇÏ¼¼¿ä";
+		System.out.println(studentName+", "+address);
+	}
+}
