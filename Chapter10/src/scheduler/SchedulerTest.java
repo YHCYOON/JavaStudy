@@ -2,14 +2,10 @@ package scheduler;
 
 import java.io.IOException;
 
-import java.sql.Connection;
-
-
 public class SchedulerTest {
 
 	public static void main(String[] args) throws IOException {
 		
-		Connection
 		
 		// R , L , P
 		System.out.println("전화 상담 배분방식을 선택하세요. R, L, P");
