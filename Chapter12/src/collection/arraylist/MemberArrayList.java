@@ -32,7 +32,6 @@ public class MemberArrayList {
 		Iterator<Member> iterator = arrayList.iterator();
 		while( iterator.hasNext()) {		// iterator 다음에 가져올 값이 있으면
 			Member member = iterator.next();
-			
 			int tempId = member.getMemberId();	// 객체의 MemberId 값을 가져옴
 			if( memberId == tempId) {
 				arrayList.remove(member);
